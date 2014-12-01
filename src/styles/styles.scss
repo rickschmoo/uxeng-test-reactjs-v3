@@ -1,0 +1,163 @@
+body {
+  background-color: white;
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  width: 400px;
+}
+
+.Page {
+  background-color: lightyellow;
+  width: 100%;
+  padding: 0.2em;
+}
+
+.Header {
+  background-color: aqua;
+  padding: 0.2em;
+  margin: 0.2em;
+}
+
+.blogTitle {
+  display: block;
+  float: left;
+  background-color: blue;
+  width: 60%;
+  padding: 0.2em;
+  margin: 0.2em;
+}
+
+.blogTitle h3 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.blogTitle .subTitle {
+  margin-top: 0;
+  font-size: 0.8em;  
+}
+
+.currentUser {
+  padding-top: 0.2em;
+  padding-left: 60%;
+  background-color: orange;
+}
+
+.currentUser img {
+  padding-left: 60%;
+  width: 30%;
+}
+
+.Posts {
+  background-color: lightyellow;
+  list-style-type: none;
+  padding: 0.2em;
+}
+
+.Post {
+  padding: 0.2em;
+  margin: 0.2em;
+  background-color: lightblue;
+  margin-bottom: 1em;
+}
+
+.blogpost.inside {
+  border: 1px solid black;
+}
+
+.PostHeader {
+  padding-top: 10px;
+}
+
+.headerTextContent {
+  float: left;
+  width: 80%;
+}
+
+.deleteLink {
+  display: none;
+  background-color: red;
+}
+
+.deleteLink.userCanDelete {
+  display: block;
+}
+
+
+.post-author {
+  font-weight: bold;
+  display: block;
+  width: 90%;
+}
+
+.blogpost-remove {
+  display: block;
+  margin-left: 90%;
+  padding-left: 5px;
+}
+
+.blogpost-remove:hover {
+  background-color: lightgrey;
+  font-weight: bold;
+}
+
+.post-time {
+  font-size: small;
+  color: gray;
+}
+
+
+
+.blogpost-body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Comments {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
+  /* replaced by ng-show collapsed! */
+}
+
+.Comments.comments-display {
+  display: block;
+}
+
+.blogpost-comments-ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left:0;
+  margin-right: 10px;
+}
+
+.comments-link {
+  font-size: small;
+  color: blue;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.Comment {
+  background-color: lightyellow;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.comment-author {
+  font-weight: bold;  
+}
+
+.comment-time {
+  font-size: small;
+  color: gray;
+}
+
+.comment-body {
+  margin-top: 10px;
+}
+
+.CommentForm form input {
+  background-color: lightgrey;
+}
+
+.CommentForm form input.inside {
+  background-color: white;
+}
